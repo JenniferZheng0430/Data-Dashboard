@@ -8,8 +8,12 @@ function Card(){
             <h2>Researcher Name</h2>
         </div>
         <img src="img/Al Hijra.jpeg"></img>
-        <button className="btn">Detail</button>
+        <button className="btn">Detail</button
+        <div>
+            
+        </div>
         </>
+       
     );
 }
 
