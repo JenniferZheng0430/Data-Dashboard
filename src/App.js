@@ -1,10 +1,18 @@
-import Card from './Card'
+import React from 'react';
+import Card from './Components/Card';
+
+// import Card from './Card'
 function App() {
   return (
-  <>
-  <div>Hello world!</div>
-  <Card />
-  </>
+  <div className = "App">
+    <Card 
+    title='Project 1'
+    imageUrl= "/graph.png"
+    body='Researcher Name'
+    />
+  </div>
+  
+  
   );
 }
 
