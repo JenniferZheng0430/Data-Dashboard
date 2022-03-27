@@ -1,15 +1,20 @@
 import React from 'react';
 import Card from './Components/Card';
-
+import { cardData } from './Card_data';
 // import Card from './Card'
+
+const data = cardData;
 function App() {
   return (
   <div className = "App">
-    <Card 
-    title='Project 1'
-    imageUrl= "/graph.png"
-    body='Researcher Name'
-    />
+    
+    {data.map((data) => (
+        <Card 
+        title = {data.title}
+        imageUrl= {data.imageUrl}
+        body= {data.body}
+        />
+      ))}
   </div>
   
   

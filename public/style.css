@@ -46,6 +46,7 @@ body{
 }
 
 .card{
+    position: absolute;
     margin-top: 300px;
     margin-left: 50px;
 }
